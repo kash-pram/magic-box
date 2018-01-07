@@ -12,47 +12,21 @@
   <!--[if gt IE 8]><!--> <!--<![endif]-->
 
   <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
-  <style>
-    /* For mobile phones: */
-    .giant-input{
-      width: 90%;
-      font-size: 3vw;
-    }
-    @media only screen and (min-width: 600px) {
-      /* For tablets: */
-      .giant-input{
-        width: 75%;
-        font-size: 2.5vw;
-      }
-    }
-    @media only screen and (min-width: 768px) {
-      /* For desktop: */
-      .giant-input{
-        width: 60%;
-        font-size: 2vw;
-      }
-    }
-    .giant-input {
-      height: 6vw;
-      padding: 0px 2vw;
-    }
-    .full-width{
-      width: 100%;
-    }
-    .text-center {
-      text-align: center;
-    }
-    .margin-top-10p{
-      margin-top: 10%;
-    }
-  </style>
+  <style>.disable-select{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.giant-input{width:90%;height:4.6vw;padding:0 2vw}.dynamic-font{font-size:3vw}.dynamic-font-sm{font-size:2.5vw}@media only screen and (min-width:600px){.giant-input{width:75%}.dynamic-font{font-size:2.5vw}.dynamic-font-sm{font-size:2vw}}@media only screen and (min-width:768px){.giant-input{width:60%}.dynamic-font{font-size:2vw}.dynamic-font-sm{font-size:1.5vw}}.color-gray-light{color:#c6c2c2}.color-red-light{color:#db7070}.color-green-light{color:#5bd75b}.color-blue-light{color:#66b3ff}.display-inline-block{display:inline-block}.full-width{width:100%}.text-center{text-align:center}.text-left{text-align:left}.margin-top-10p{margin-top:10%}.margin-bottom-10{margin-bottom:10px}</style>
   <script>
 
   </script>
 </head>
-<body class="text-center">
-    <div class="full-width">
-      <input class="giant-input text-center margin-top-10p" type="text" placeholder="format: input [, category [- subcategory], [map-to] ]" />
+<body>
+  <div class="full-width text-center">
+    <input class="dynamic-font giant-input text-center margin-top-10p" type="text" placeholder="format: input [, category [- subcategory], [map-to] ]" />
+  </div>
+  <div class="text-center">
+    <ul class="disable-select text-left display-inline-block dynamic-font-sm color-gray-light">
+      <li class="margin-bottom-10"><span class="color-red-light">meet Anish</span>, <span class="color-green-light">to meet</span></li>
+      <li class="margin-bottom-10"><span class="color-red-light">https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/</span></li>
+      <li class="margin-bottom-10"><span class="color-red-light">mikki-website.github.io</span>, <span class="color-green-light">github</span>, <span class="color-blue-light">mikki.ppm@gmail.com</span></li>
+    </ul>
     </div>
 </body>
 </html>
